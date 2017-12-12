@@ -1,0 +1,11 @@
+{
+  "name": "elm-reason-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bs-platform": "^2.1.0",
+    "poi": "^9.5.11",
+    "poi-preset-elm": "^1.1.1"
+  }
+}

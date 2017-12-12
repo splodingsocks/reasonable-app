@@ -1,0 +1,6 @@
+.merlin
+elm-stuff
+node_modules
+lib
+**/*.bs.js
+.cache
