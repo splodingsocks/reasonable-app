@@ -1,7 +1,10 @@
-type elmApp = {. "fullscreen": [@bs.meth] (unit => unit)};
+module R = Js.Result;
 
-[@bs.module "./Main.elm"] external app : elmApp = "Main";
+[@bs.module] external elmProgram : ReasonElm.elmProgram = "./Main.elm";
 
-Js.log("Hello from Reason world");
+let instance = ReasonElm.mount(elmProgram);
 
-app##fullscreen();
+switch (instance) {
+    | Ok(_) => Js.log("Elm app is running! 🚀👟")
+    | Error(message) => Js.log(message)
+};

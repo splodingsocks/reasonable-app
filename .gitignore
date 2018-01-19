@@ -4,3 +4,4 @@ node_modules
 lib
 **/*.bs.js
 .cache
+dist
