@@ -5,10 +5,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "bsb-js": "^1.0.2",
-    "parcel-bundler": "^1.4.1",
-    "parcel-plugin-elm": "git+https://github.com/splodingsocks/parcel-plugin-elm.git#master",
-    "re-elm-app": "^1.1.1",
-    "reason-elm": "0.0.4"
+    "bs-elm": "1.0.2",
+    "bs-platform": "3.0.0",
+    "bsb-js": "1.0.2",
+    "parcel-bundler": "1.7.1",
+    "parcel-plugin-elm": "^0.1.2-alpha"
   }
 }

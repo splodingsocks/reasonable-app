@@ -8,5 +8,5 @@
     "module": "commonjs",
     "in-source": true
   },
-  "bs-dependencies": ["reason-elm", "re-elm-app"]
+  "bs-dependencies": ["bs-elm"]
 }
